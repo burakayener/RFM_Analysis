@@ -1,0 +1,34 @@
+# Cluster Interpretation
+
+
+
+#### For unscaled data we have 5 clusters.
+Cluster1: Second worst cluster. %21.04 of the customers in this cluster.Low monetary, frequency and moderately high recency. 
+Cluster2: Second best cluster after Cluster1. Contains %2.86 customers 
+Cluster3: Third best cluster after  Cluster2. Contains %8.11
+Cluster4: Worst cluster. Lowest monetary, frequency and highest recency. %65.83 customers in this cluster 
+Cluster5: Best cluster. Highest monetary and frequency and lowest recency. Contains %2.15 of the customers
+KMeans works with distance, so for unscaled data KMeans clustring is not optimal
+
+
+#### For standard scaled data we have 6  clusters
+Cluster1: Second best monetary. And have the lowest recency and highest frequency. Values of frequency is much higher than the others and the recency is the way to low than the other clusters. Contains %2.55 of the customers
+Cluster2: Moderate monetary, quite low recency and high frequency. %15.07 customers in this group.
+Cluster3: Worst cluster. Lowest monetary, frequency and highest frequency. This cluster may contains the customers that only 1 or 2 time bought items in this company %13.87 
+Cluster4: Low monetary, frequency and recency. This cluster may contain most of the new customers. This is why all variables are low. Half of the customers in this group %49.44
+Cluster5: Has the highest monetary and have second bests of recency and frequency. %2.18 of the customers in this cluster. 
+Cluster6: This group is likely the cluster 3. Only diffrence is they spend more money. They may have bought more valuable items. %16.85 of the customers in this cluster.
+
+
+For min_max scaled data we have 6  clusters
+Cluster1: Worst cluster. Lowest monetary, frequency and highest frequency. This cluster may contains the customers that only 1 or 2 time bought items in this company %13.92
+Cluster2: Low monetary, frequency and recency. This cluster may contain most of the new customers. This is why all variables are low. Half of the customers in this group %46.21
+Cluster3: Best monetary value, second best frequency and recency. This cluster contains most of the most-valuable customers %2.65
+Cluster4: This group is likely the cluster 1. Only diffrence is they spend more money. They may have bought more valuable items. %17.05 of the customers in this cluster
+Cluster5: Have the lowest recency, highest frequency and the second best monetary. This cluster contains most-valuable customers too %3.66
+Cluster6: Moderately high monetary and frequency, low recency. Contains the %16.48 customers.
+
+
+​
+
+​
